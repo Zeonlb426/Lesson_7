@@ -125,3 +125,59 @@ header{
 .banner-button:hover{
     background-color: #353535;
 }
+
+.logo-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-specs{
+    text-align: center;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 108px;
+    background: linear-gradient(180deg, #424245 0%, rgba(102, 102, 122, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.specs{
+    margin: 130px 0;
+}
+
+.specs-content{
+    margin-top: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 90px;
+}
+
+.specs-items{
+    max-width: 145px;
+    justify-self: end;
+    display: grid;
+    gap: 24px;
+}
+
+.specs-item{
+    display: grid;
+}
+
+.specs-item>span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.specs-item>p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.specs-item:nth-child(1),
+.specs-item:nth-child(4)
+{
+    padding-left: 24px;
+}
