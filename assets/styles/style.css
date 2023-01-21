@@ -20,6 +20,11 @@ a{
     margin: 0 auto;
 }
 
+header{
+    position: absolute;
+    width: 100%;
+}
+
 .header-content{
     display: flex;
     align-items: center;
@@ -55,3 +60,68 @@ a{
     font-size: 15px;
 }
 
+.banner-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+}
+
+.banner-text{
+    padding: 130px 0;
+}
+
+.banner-text>span{
+    margin-left: 52px;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 96px;
+    background: linear-gradient(180deg, #403B3E 0%, #242526 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text>h1{
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.banner-text>h3{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 38px;
+}
+
+.banner-text>p{
+    max-width: 400px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #BDC0C2;
+}
+
+.banner-button{
+    border: none;
+    border-radius: 8px;
+    background-color: #1E1E21;
+    color: #fff;
+    padding: 18px 19px 18px 22px;
+    margin-top: 40px;
+
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.banner-button>div{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.banner-button:hover{
+    background-color: #353535;
+}
