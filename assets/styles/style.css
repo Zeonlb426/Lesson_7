@@ -233,6 +233,27 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 582px;
     margin: 0 auto;
+    margin-top: 86px;
+    gap: 48px;
 }
 
-sty
+.style {
+    margin-top: 109px;
+}
+
+.card {
+    background-color: #181A1B;
+    border-radius: 8px;
+
+}
+
+.btn-card {
+    background-color: #000;
+}
+
+.card>img {
+    margin: -50px auto 0;
+    display: block;
+
+}
+
