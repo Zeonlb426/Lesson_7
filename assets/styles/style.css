@@ -101,7 +101,7 @@ header{
     color: #BDC0C2;
 }
 
-.banner-button{
+.banner-button, .btn-moreinfo{
     border: none;
     border-radius: 8px;
     background-color: #1E1E21;
@@ -132,7 +132,7 @@ header{
     align-items: center;
 }
 
-.title-specs{
+.title-specs, .title-case, .choose {
     text-align: center;
     font-weight: 400;
     font-size: 72px;
@@ -145,7 +145,7 @@ header{
     margin: 130px 0;
 }
 
-.specs-content{
+.specs-content, .case-content{
     margin-top: 34px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -181,3 +181,58 @@ header{
 {
     padding-left: 24px;
 }
+
+.case-content>img {
+    justify-self: end;
+}
+
+.case-items>p {
+    max-width: 240px;
+  
+}
+
+.btn-moreinfo {
+    justify-content: center;
+    display: inline-flex;
+    padding: 18px 23px;
+}
+
+.music {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #181A1B;
+    border-radius: 12px;
+    align-items: center;
+    padding: 48px 140px;
+    gap: 84px;
+    margin-top: 134px;
+}
+
+.music-left {
+    max-width: 242px;
+    justify-self: end;
+}
+
+.music-left>p {
+    margin-top: 16px;
+}
+
+.btn-buy-now {
+    margin-top: 16px;
+    background-color: #000;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 16px 23px;
+}
+
+.style-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 582px;
+    margin: 0 auto;
+}
+
+sty
